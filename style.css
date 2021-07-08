@@ -5,7 +5,7 @@
 
 header > h1, h2{
    margin-top: 185px;
-   margin-left: 270px;
+   margin-left: 170px;
 }
 
 
@@ -37,7 +37,18 @@ span {
   
 }
 
+.card-text {
+   letter-spacing: 0.1px;
+}
+
 .aboutme {
    background-color: var(--success);
    text-align: justify;
+}
+
+.titre {
+   text-align: center;
+   font-size: 4rem;
+   font-weight: 700;
+   margin-top: 50px;
 }
