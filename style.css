@@ -1,0 +1,43 @@
+:root{
+   --success: #1abc9c;
+}
+
+
+header > h1, h2{
+   margin-top: 185px;
+   margin-left: 270px;
+}
+
+
+.btn-outline {
+   margin-top: 60px;
+   margin-left: 750px;
+   margin-bottom: 350px;
+   color: var(--success) !important;
+   font-weight: bolder;
+}
+
+.btn-link {
+   margin-top: 40px;
+   margin-left: 100px;
+   margin-bottom: 60px;
+   color: var(--success) !important;
+   font-weight: bolder;
+}
+
+span {
+   color: var(--success);
+   font-size: 65px;
+   font-weight: 600;
+}
+
+.card{
+   margin-left: 30px;
+   background-color: var(--success);
+  
+}
+
+.aboutme {
+   background-color: var(--success);
+   text-align: justify;
+}
