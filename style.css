@@ -1,11 +1,13 @@
 :root{
    --success: #1abc9c;
+   --color: #34495e;
 }
 
 
 header > h1, h2{
-   margin-top: 185px;
+   margin-top: 170px;
    margin-left: 170px;
+   color: var(--color);
 }
 
 
@@ -51,4 +53,22 @@ span {
    font-size: 4rem;
    font-weight: 700;
    margin-top: 50px;
+   color: var(--color);
+}
+
+footer, .container {
+   background-color: var(--color);
+   color: aliceblue;
+}
+
+.pied {
+   text-align: right;
+}
+
+.pied2 {
+   text-align: left;
+}
+
+.pied3 {
+   margin-left: 590px;
 }
